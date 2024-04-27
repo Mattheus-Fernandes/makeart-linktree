@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Makeart</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+<body>
+  <div class="container">
+      
+    <div class="info">
+      <img src="public/logo.jpeg" alt="makeartoficial" class="logo">
+      <h1>Makeart</h1>
+      <div>
+        <img src="public/icons8-instagram-50.png" alt="makeartoficial" class="i-insta">
+        <a href="https://www.instagram.com/makeartoficial/?igsh=MWQ5Y2d3eTNpMDk3Zg%3D%3D&utm_source=qr" target="_blank">makeartoficial</a>
+      </div>
+    </div>
+
+    <main class="main">
+      <nav>
+        <ul>
+          <li class="animate__animated animate__pulse animate__infinite">
+            <img src="../public/icons8-leitura-50.png" alt="Catálago" class="icon">
+            <a href="../public/Catálago - Makeart.pdf" download>Veja O Nosso Catálago</a>
+          </li>
+          <li>
+            <img src="../public/icons8-rímel-50.png" alt="Ruby Rose" class="icon">
+            <p>Ruby Rose</p>
+          </li>
+          <li>
+            <img src="../public/icons8-escova-cosmética-50.png" alt="Melu" class="icon">
+            <p>Melu</p>
+          </li>
+          <li>
+            <img src="../public/icons8-base-50.png" alt="Max Love" class="icon">
+            <p>Max Love</p>
+          </li>
+          <li>
+            <img src="../public/icons8-whatsapp-50.png" alt="Ruby Rose" class="icon">
+            <a  href="https://api.whatsapp.com/send?phone=32991370535" target="_blank" class="text-xl text-black">Vendedor Mattheus</a>
+          </li>
+          <li>
+            <img src="../public/icons8-whatsapp-50.png" alt="Ruby Rose" class="icon">
+            <a href="https://api.whatsapp.com/send?phone=32988318327" target="_blank" class="text-xl text-black">Vendedora Thuany</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+
+  </div>
+
+
+  <div  class="msg showMsg">
+    <p>Siga a gente no nosso <strong>Instagram</strong> para acompanhar nossos produtos e promoções.</p>
+  </div>
+  <script>
+
+    const msg = document.querySelector(".msg")
+
+    
+    setTimeout(() => {
+    
+      msg.classList.remove("showMsg")
+    
+    }, 2500)
+
+
+  </script>
+</body>
+</html>
